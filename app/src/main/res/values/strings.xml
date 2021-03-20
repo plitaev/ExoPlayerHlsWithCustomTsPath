@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ExoPlayerHlsWithCustomTsPath</string>
+    <string name="server_address">SERVER_DOMAIN_OR_IP_ADDRESS</string>
+    <string name="server_login">SERVER_AUTH_LOGIN</string>
+    <string name="server_password">SERVER_AUTH_PASSWORD</string>
+    <string name="server_streaming">streaming</string>
+    <string name="hint_edittext_token">Token</string>
+    <string name="hint_edittext_filename">Filename</string>
+    <string name="hint_button_api">Login with API</string>
+    <string name="hint_button_api_process">Please wait...</string>
+    <string name="hint_button_run">Run Player</string>
+    <string name="text_view_quality">Select Quality</string>
+    <string name="text_view_api">Then log in with API to get the token and playlist </string>
+    <string name="text_view_run">After receiving the token and playlist, launch the player</string>
+
+    <string-array name="quality_array">
+        <item>high</item>
+        <item>low</item>
+    </string-array>
+</resources>

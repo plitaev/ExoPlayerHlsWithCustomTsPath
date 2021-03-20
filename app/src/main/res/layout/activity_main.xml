@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/textViewQuality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_quality"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/spinner_quality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewQuality"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/textViewAPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_api"
+        android:layout_below="@+id/spinner_quality"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center" />
+
+    <android.widget.Button
+        android:id="@+id/buttonAPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewAPI"
+        android:layout_marginTop="25dp"
+        android:text="@string/hint_button_api" />
+
+    <EditText
+        android:id="@+id/editTextToken"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_below="@+id/buttonAPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_edittext_token"
+        android:layout_marginTop="25dp"
+        android:autofillHints="false"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <EditText
+        android:id="@+id/editTextFilename"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_below="@+id/editTextToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="25dp"
+        android:hint="@string/hint_edittext_filename"
+        android:autofillHints="false"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <TextView
+        android:id="@+id/textViewRUN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_run"
+        android:layout_below="@+id/editTextFilename"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center" />
+
+    <android.widget.Button
+        android:id="@+id/buttonPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewRUN"
+        android:layout_marginTop="25dp"
+        android:text="@string/hint_button_run" />
+
+</RelativeLayout>
