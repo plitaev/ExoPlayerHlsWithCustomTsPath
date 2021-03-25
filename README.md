@@ -11,6 +11,6 @@ Instead of this ExoPlayer tried to get .ts chunks from URL like https://SERVER_A
 
 By default, ExoPlayer will generate this URL format into chunks according to the HLS standard
 
-This example shows how to customize ExoPlayer to use the custom URL format of .ts chunk query with the ability to transfer any parameters in the request
+This example shows how to customize ExoPlayer to use the custom URL format for .ts chunk query with the ability to transfer any parameters in the request
 
 See https://github.com/plitaev/ExoPlayerHlsWithCustomTsPath/blob/master/app/src/main/java/plita/me/exoplayerhlswithcustomtspath/PlayerActivity.java for config details
