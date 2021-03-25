@@ -1,9 +1,9 @@
 # ExoPlayerHlsWithCustomTsPath
 My ExoPlayer build with custom path to .ts files in HLS stream
 
-Once I ran into a problem when I needed to play the HLS live stream from the server after authorization, passing a token in GET requests.
+Once I ran into a problem when I needed to play the HLS live stream from the server after authorization, passing a token in GET request.
 
-After authorization, I received the token and made a request to .m3u8 Playlist through URL with token in ExoPlayer (example: https://SERVER_ADDRESS/streaming?token=TOKEN&filename=playlist.m3u8)
+After authorization, I received the token and made a request to .m3u8 playlist through URL with token in ExoPlayer (example: https://SERVER_ADDRESS/streaming?token=TOKEN&filename=playlist.m3u8)
 
 So, the ExoPlayer was getting .m3u8 playlist from URL with dynamic params. Then, as I thought, the ExoPlayer would read the .ts chunks names from .m3u8 playlist and will generate GET query with prevous URL format like https://SERVER_ADDRESS/streaming?token=TOKEN&filename=fragment1.ts
   
